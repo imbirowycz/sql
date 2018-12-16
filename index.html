@@ -3,7 +3,7 @@
 <head>
 </head>
 <body>
-<code>
+<pre>
 proc options option=encoding;
 run;
 /* ENCODING=UTF-8    Specifies the default character-set encoding for the SAS session. */
@@ -476,6 +476,6 @@ select adres, count(*) as liczba_czytelnikow),
 count(*)/(select count(*) from b.czytelnik) as udzial_pct format percent8.2
 from b.czytelnik
 group by /*ades*/ 1;
-	</code>
+	</pre>
 </bodh>
 </html>
